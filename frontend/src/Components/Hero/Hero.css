@@ -1,0 +1,78 @@
+.hero {
+  height: 70vh;
+  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+  display: flex;
+}
+
+.hero-left {
+  flex: 1;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  padding: 150px;
+  line-height: 1.1;
+}
+
+.hero-left h2 {
+  color: #090909;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.hero-left p {
+  color: #171717;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.hero-hand-icon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.hero-hand-icon img {
+  width: 85px;
+
+}
+
+.hero-latest-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* Pehle 15px tha */
+  width: 250px;
+  /* Pehle 310px tha */
+  height: 60px;
+  /* Pehle 70px tha */
+  border-radius: 75px;
+  margin-top: 20px;
+  /* Pehle 30px tha */
+  background: #ff4141;
+  color: white;
+  /* Button text size kam kiya */
+  font-size: 18px;
+  /* Pehle 22px tha */
+  font-weight: 500;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-right img {
+  /* Isse image container mein fit ho jaayegi aur bahar nahi niklegi */
+  width: 90%;
+  height: auto;
+  /* Agar fir bhi bahut badi lage, toh isko thoda kam kar sakte hain */
+  /* width: 85%; */
+
+  padding-top: 100px;
+}
