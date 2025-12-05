@@ -1,0 +1,79 @@
+/* Newsletter.css (Final Corrected Code) */
+
+.newsletter {
+  /* Width badhaya for better screen coverage */
+  width: 80%;
+  /* Change: 65% se 80% */
+  /* Height kam kiya for compact look */
+  height: 30vh;
+  /* Change: 40vh se 30vh */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  /* Padding kam kiya */
+  padding: 0px 80px;
+  /* Change: 140px se 80px */
+  margin-bottom: 150px;
+  margin-top: 100px;
+  background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+  gap: 20px;
+  /* Gap thoda kam kiya */
+}
+
+.newsletter h1 {
+  color: #454545;
+  /* Font size kam kiya for compact heading */
+  font-size: 40px;
+  margin-top: 20px;
+  /* Change: 55px se 45px */
+  font-weight: 600;
+}
+
+.newsletter p {
+  color: #454545;
+  font-size: 20px;
+}
+
+.newsletter div {
+  display: flex;
+  align-items: center;
+  /* Button aur input ko align karne ke liye */
+  justify-content: space-between;
+  background: white;
+  /* Width kam kiya for compact input field */
+  width: 650px;
+  /* Change: 730px se 650px */
+  height: 70px;
+  border-radius: 80px;
+  border: 1px solid #e3e3e3;
+}
+
+.newsletter input {
+  /* Input width adjust kiya */
+  width: 420px;
+  /* Change: 500px se 420px */
+  margin-left: 30px;
+  border: none;
+  outline: none;
+  color: #616161;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.newsletter div button {
+  /* Button width adjust kiya */
+  width: 210px;
+  /* Height container ke barabar rakhi */
+  height: 100%;
+  /* Change: 70px se 100% */
+  border-radius: 80px;
+  background: black;
+  color: white;
+  /* Button text white kiya (agar nahi hai) */
+  font-size: 16px;
+  border: none;
+  /* Border remove kiya */
+  cursor: pointer;
+}
