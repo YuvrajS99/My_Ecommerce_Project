@@ -1,0 +1,101 @@
+/* Footer.css */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* Gap kam kiya taki elements paas aayen */
+  gap: 30px;
+  /* Change: 50px se 30px */
+  padding-top: 50px;
+  padding-bottom: 30px;
+  /* Bottom space diya */
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-logo p {
+  color: #383838;
+  /* Logo text size kam kiya */
+  font-size: 40px;
+  /* Change: 46px se 40px */
+  font-weight: 700;
+}
+
+.footer-links {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  color: #252525;
+  /* Links size thoda aur chota kiya */
+  font-size: 16px;
+  /* Change: 18px se 16px */
+  padding: 0;
+  /* List ka default padding hataya */
+}
+
+.footer-links li {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+/* Class name ko HTML (footer-socials-icons) se match kiya */
+.footer-socials-icons {
+  /* Correction: social-icon se socials-icons */
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  /* Links aur icons ke beech thoda space */
+}
+
+.footer-icons-container {
+  /* Padding kam kiya taki icon chote lagne lagen */
+  padding: 6px;
+  /* Change: 10px se 6px */
+  padding-bottom: 4px;
+  /* Change: 6px se 4px */
+  background: #fbfbfb;
+  border: 1px solid #ebebeb;
+  /* Icons ko rounded corners diye */
+  border-radius: 8px;
+  /* New: Added border-radius */
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+/* 🏆 New style: Icons ko chota kiya 🏆 */
+.footer-icons-container img {
+  width: 20px;
+  /* Icons ki width choti ki */
+  height: 20px;
+  /* Icons ki height choti ki */
+}
+
+.footer-copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Gap kam kiya */
+  gap: 15px;
+  /* Change: 30px se 15px */
+  width: 100%;
+  margin-top: 20px;
+  /* Hr ke upar space */
+  color: #1a1a1a;
+  /* Copyright text size thoda aur chota kiya */
+  font-size: 12px;
+  /* Change: 14px se 12px */
+}
+
+.footer-copyright hr {
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  height: 3px;
+  background: #c7c7c7;
+}
