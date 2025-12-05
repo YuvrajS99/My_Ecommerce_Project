@@ -1,0 +1,79 @@
+/* Offers.css (Final Code to Match YouTuber's Style) */
+
+.offers {
+  /* Width badhaya taki center mein achche se dikhe */
+  width: 80%;
+  /* Change: 65% se 80% */
+  height: 60vh;
+  display: flex;
+  margin: 0px auto 150px;
+  /* Margin top 0 aur bottom 150px diya */
+  /* Side padding kam kiya taki content compact ho */
+  padding: 0px 80px;
+  /* Change: 140px se 80px */
+  background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+}
+
+.offers-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* Content ko center kiya */
+  justify-content: center;
+}
+
+.offers-left h1 {
+  color: #171717;
+  /* Font size kam kiya for a clean, compact look */
+  font-size: 60px;
+  /* Change: 80px se 60px */
+  font-weight: 600;
+  /* Line-height kam kiya taki lines paas paas aayen */
+  line-height: 1.1;
+}
+
+.offers-left p {
+  color: #171717;
+  /* Small text size kam kiya */
+  font-size: 16px;
+  /* Change: 22px se 16px */
+  font-weight: 600;
+  margin-top: 5px;
+  /* Heading aur small text ke beech thoda space */
+}
+
+.offers-left button {
+  width: 250px;
+  /* Thoda chota kiya */
+  height: 60px;
+  /* Thoda chota kiya */
+  border-radius: 35px;
+  background: #ff4141;
+  border: none;
+  color: white;
+  font-size: 20px;
+  /* Font size adjust kiya */
+  font-weight: 500;
+  margin-top: 25px;
+  /* Button ko thoda upar kiya */
+  cursor: pointer;
+}
+
+.offers-right {
+  flex: 1;
+  display: flex;
+  /* Image ko vertically center kiya */
+  align-items: center;
+  /* Image ko horizontally center kiya */
+  justify-content: center;
+  /* Changed from flex-end */
+  /* Padding-top hata diya */
+  padding-top: 0;
+}
+
+/* Offers Image size adjustment */
+.offers-right img {
+  /* Image ko chota kiya taki content ke paas aa sake */
+  width: 64%;
+  height: auto;
+}
