@@ -1,29 +1,37 @@
+/* Hero.css (Final Corrected Version) */
+
 .hero {
-  height: 70vh;
+  /* Height ko 85vh set kiya taki image fit ho aur Popular section ke liye space mile */
+  height: 85vh;
+  /* Pehle 70vh ya 90vh tha */
   background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
   display: flex;
 }
 
 .hero-left {
-  flex: 1;
+  flex: 1.2;
   display: flex;
-
   flex-direction: column;
   justify-content: center;
+  /* Gap aur padding adjust kiya taki content compact ho */
   gap: 15px;
-  padding: 150px;
+  padding: 100px;
+  /* Pehle 150px tha */
   line-height: 1.1;
 }
 
 .hero-left h2 {
   color: #090909;
+  /* Font size thoda kam kiya */
   font-size: 22px;
   font-weight: 600;
 }
 
 .hero-left p {
   color: #171717;
-  font-size: 60px;
+  /* Main text ka font size kam kiya for compact look */
+  font-size: 55px;
+  /* Pehle 60px tha */
   font-weight: 700;
 }
 
@@ -31,12 +39,11 @@
   display: flex;
   align-items: center;
   gap: 15px;
-
 }
 
 .hero-hand-icon img {
+  /* Hand icon size adjust kiya */
   width: 85px;
-
 }
 
 .hero-latest-button {
@@ -44,35 +51,32 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  /* Pehle 15px tha */
+  /* Button size adjust kiya */
   width: 250px;
-  /* Pehle 310px tha */
   height: 60px;
-  /* Pehle 70px tha */
   border-radius: 75px;
   margin-top: 20px;
-  /* Pehle 30px tha */
   background: #ff4141;
   color: white;
-  /* Button text size kam kiya */
+  /* Button text size adjust kiya */
   font-size: 18px;
-  /* Pehle 22px tha */
   font-weight: 500;
 }
 
 .hero-right {
   flex: 1;
   display: flex;
-  align-items: center;
+  /* Image ko bottom se align kiya taki woh choti dikhe aur achche se fit ho */
+  align-items: flex-end;
+  /* Changed from center */
   justify-content: center;
 }
 
 .hero-right img {
-  /* Isse image container mein fit ho jaayegi aur bahar nahi niklegi */
-  width: 90%;
+  /* Image ko thoda aur chota kiya */
+  width: 85%;
+  /* Changed from 90% */
   height: auto;
-  /* Agar fir bhi bahut badi lage, toh isko thoda kam kar sakte hain */
-  /* width: 85%; */
-
-  padding-top: 100px;
+  /* Padding-top remove kiya */
+  /* padding-top: 100px; <--- Is property ko remove kar dein */
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../Components/Hero/Hero.jsx'
-import Popular from '../Components/Popular/Popular.jsx'
+import Popular from '../Components/Popular/Popular'
 const Shop = () => {
   return (
     <div>

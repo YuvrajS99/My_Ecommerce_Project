@@ -1,9 +1,26 @@
+/* Item.css (Updated for Compact Look) */
+
 .item {
-  width: 350px
+  /* Fixed width hata dein ya kam kar dein, taki grid mein fit ho sake */
+  width: 250px;
+  /* Ya is line ko delete kar dein agar popular-item grid use kar raha hai */
+  margin-bottom: 25px;
+  /* Items ke beech vertical space */
+}
+
+/* New style for the image */
+.item img {
+  width: 100%;
+  /* Image height fix kiya taki sab ek size ke dikhein */
+  height: 300px;
+  object-fit: cover;
+  /* Taki image cut na ho, sirf cover ho */
 }
 
 .item p {
   margin: 6px 0px;
+  font-size: 14px;
+  /* Text size thoda kam kiya */
 }
 
 .item-prices {
@@ -13,6 +30,7 @@
 
 .item-price-new {
   color: #374151;
+  /* Ya use #ff4141 for red highlight */
   font-size: 18px;
   font-weight: 600;
 

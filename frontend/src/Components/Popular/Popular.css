@@ -1,0 +1,40 @@
+/* Popular.css (Final Corrected Code) */
+
+.popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  /* Height hata dein taki content fit ho aur scroll ho sake */
+  /* height: 90vh; */
+  padding: 0px 100px;
+  /* Sides mein thoda space diya */
+}
+
+.popular h1 {
+  color: #171717;
+  font-size: 40px;
+  font-weight: 600;
+  /* Heading aur hr ke beech ka space kam kiya */
+  margin-bottom: 0px;
+}
+
+.popular hr {
+  width: 200px;
+  height: 3.5px;
+  border-radius: 5px;
+  background: #252525;
+}
+
+.popular-item {
+  /* Top margin kam kiya taki Hero section ke baad jaldi dikhe */
+  margin-top: 50px;
+  /* Pehle 150px tha */
+
+  /* ITEMS ko 4 columns mein arrange karne ke liye GRID use karein */
+  display: grid;
+  /* 4 equal-width columns */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* Items ke beech ka space */
+  gap: 30px;
+}
