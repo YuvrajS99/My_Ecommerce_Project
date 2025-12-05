@@ -1,0 +1,35 @@
+/* Popular.css (Final Corrected Code) */
+
+.new-collections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  /* Height hata dein taki content fit ho aur scroll ho sake */
+  /* height: 90vh; */
+  padding: 0px 100px;
+  /* Sides mein thoda space diya */
+}
+
+.new-collections h1 {
+  color: #171717;
+  font-size: 40px;
+  font-weight: 600;
+  /* Heading aur hr ke beech ka space kam kiya */
+  margin-bottom: 0px;
+}
+
+.new-collections hr {
+  width: 200px;
+  height: 3.5px;
+  border-radius: 5px;
+  background: #252525;
+}
+
+.collections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 50px;
+  gap: 30px;
+
+}
